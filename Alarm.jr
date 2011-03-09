@@ -1,0 +1,24 @@
+import edu.ucdavis.jr.*;
+
+public class Alarm {
+  private cap void(String) channel;
+  private cap void(String) start;
+  
+  public Alarm(cap void(String) channel){
+    this.channel = channel;
+    this.start = new op void(String);
+  }
+  
+  public void set(String s){
+    send this.start(s);
+  }
+  
+  public process timer {
+    while(true){
+      inni void start(String s){
+        JR.nap(5000);
+        call this.channel(s);
+      } 
+    }
+  }
+}

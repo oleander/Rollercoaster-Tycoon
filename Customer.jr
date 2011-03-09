@@ -1,0 +1,17 @@
+import edu.ucdavis.jr.*;
+
+public class Customer {
+  private cap void() queue;
+  private String name = null;
+  
+  public Customer(cap void() queue, String name){
+    this.queue = queue;
+    this.name = name;
+  }
+  
+  public process runner{
+    System.out.println(this.name + " is now in the queue");
+    call this.queue();
+    System.out.println(this.name + " taking a ride");
+  }
+}

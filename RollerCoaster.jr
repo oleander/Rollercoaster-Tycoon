@@ -1,0 +1,41 @@
+import java.util.*;
+import edu.ucdavis.jr.*;
+
+public class RollerCoaster {
+  public cap void() queue;
+  public cap void(String) go;
+  public Alarm alarm = null;
+  public Random r = new Random();
+  public int max = 10;
+  
+  public RollerCoaster(){
+    this.queue = new op void();
+    this.go    = new op void(String);
+    this.alarm  = new Alarm(this.go);
+  }
+  
+  public process runner{
+    String auth = null;
+    while (true) {
+      
+      /* Generating a unique id for this alarm */
+      auth = Integer.toString(r.nextInt(10000));
+      
+      this.alarm.set(auth);
+      
+      inni void queue() st this.queue.length() == this.max {
+        this.serve();
+      } [] void go(String channel_auth) st channel_auth.equals(auth) && this.queue.length() > 0 {
+        System.out.println("The alarm went of!");
+        this.serve();
+      }
+    }
+  }
+  
+  public void serve(){
+    while(this.queue.length() != 0) {
+      receive this.queue();
+    }
+  }
+  
+}

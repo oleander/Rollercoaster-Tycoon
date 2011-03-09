@@ -1,0 +1,16 @@
+import edu.ucdavis.jr.*;
+import java.util.*;
+
+public class Main {
+  Random r         = new Random();
+  RollerCoaster rc = new RollerCoaster();
+  
+  public static void main(String[] args) {
+    new Main();
+  }
+  
+  public process runner((int n = 0; n < 20; n++)){
+    JR.nap(this.r.nextInt(15000));
+    new Customer(this.rc.queue, "Name-" + n);
+  }
+}
