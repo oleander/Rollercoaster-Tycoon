@@ -55,3 +55,7 @@ JR makes it even better!
 - [Alejandro Russo](http://www.cse.chalmers.se/~russo/) who **forced** me to learn JR.
 - [Arash Rouhani](https://github.com/Tarrasch) for the `ja` snippet.
 - [JR Core Team](http://www.cs.ucdavis.edu/~olsson/research/jr/photos/2004-06-17c.jpg) who build the super stable JR source. *It only crached 9 times, yeah!*
+
+## Version
+
+`Rollercoaster Tycoon 0.1`
