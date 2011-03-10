@@ -8,7 +8,7 @@ Rollercoaster Tycoon purely written in Java.
 
 ### Installing JR
 
-Take a few days of work and install [JR](http://www.cs.ucdavis.edu/~olsson/research/jr/).
+Take a few days off work and install [JR](http://www.cs.ucdavis.edu/~olsson/research/jr/).
 
 ### Compile and run
 
@@ -28,7 +28,7 @@ Easy as pie, use [Tarrach](https://github.com/Tarrasch) awesome [ja](https://gis
     Name-13 is now in the queue
     Name-6 is now in the queue
     
-    The alarm went of!
+    The alarm went off!
     
     Name-16 taking a ride
     Name-8 taking a ride

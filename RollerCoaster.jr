@@ -26,7 +26,7 @@ public class RollerCoaster {
       inni void queue() st this.queue.length() == this.max {
         this.serve();
       } [] void go(String channel_auth) st channel_auth.equals(auth) && this.queue.length() > 0 {
-        System.out.println("The alarm went of!");
+        System.out.println("The alarm went off!");
         this.serve();
       }
     }
