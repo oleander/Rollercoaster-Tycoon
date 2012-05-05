@@ -2,7 +2,7 @@
 
 Rollercoaster Tycoon purely written in Java.
 
-*Fun for the hole family and it's multithreaded!*
+*Fun for the whole family and it's multithreaded!*
 
 ## How to use
 
